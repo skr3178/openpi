@@ -1,3 +1,7 @@
+# SKR Notes
+- Added open_pi pi_0 paper notes
+
+
 # openpi
 
 openpi holds open-source models and packages for robotics, published by the [Physical Intelligence team](https://www.physicalintelligence.company/).
@@ -47,6 +51,11 @@ We use [uv](https://docs.astral.sh/uv/) to manage Python dependencies. See the [
 ```bash
 GIT_LFS_SKIP_SMUDGE=1 uv sync
 GIT_LFS_SKIP_SMUDGE=1 uv pip install -e .
+```
+Activate the uv env:
+
+```
+source .venv/bin/activate
 ```
 
 NOTE: `GIT_LFS_SKIP_SMUDGE=1` is needed to pull LeRobot as a dependency.
